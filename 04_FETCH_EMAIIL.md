@@ -26,5 +26,4 @@ Result:
 4] We assume that we only receive the incremental data files automatically, eliminating the need to re-process all the records in every run of the ETL job, that can hinder the performance. Kindly let us know if our assumption is wrong.
 
 Thanks& Regarards
-
 *Srinivasarao Kotipatruni*
