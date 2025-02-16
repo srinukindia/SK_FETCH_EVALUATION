@@ -3,7 +3,7 @@
 --------------------------------------------------------
 Hi Sam,
 
-Thank You so much for the files shared. I have gone through the files and based on my Analysis, I have the following queries. Could You pleaese suggest accordingly.
+Thank You so much for the files shared. We have loaded json files into snowflake tables for our analysis and based on our Analysis, I have the following queries. Could You pleaese suggest accordingly.
 
 1] We see most of the timestamp fields are in numberic format. So, I assume these are epcoh (number of seconds elapsed since January 1, 1970) times. But, When I try to convert these to calendar timestamps, I see the date range is too high. Let me know if my assumption is wrong.
 
@@ -12,9 +12,9 @@ Thank You so much for the files shared. I have gone through the files and based 
     SELECT TO_DATE(TO_TIMESTAMP(1609687542000));
     Result: 52978-12-19
 
-2] I also see that PURCHASEDATE RECEIPTS fiels is coming as NULL. In such rare cases, can we assume 1st of the Calendar month in which we received the file as the defautl PURCHASEDATE.
+2] We also see that PURCHASEDATE RECEIPTS fiels is coming as NULL. In such rare cases, can we assume 1st of the Calendar month in which we received the file as the defautl PURCHASEDATE.
 
-3] In BRANDS file, I see there are some duplicates. Where in the BARCODE for below reocrds is repetitive although id field is unique.
+3] In BRANDS file, we see there are some duplicates. Where in the BARCODE for below reocrds is repetitive although id field is unique.
 
 *Ex:* 
 
