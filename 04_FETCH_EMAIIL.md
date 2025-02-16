@@ -1,5 +1,5 @@
 
-*EMAIL.*
+*Queries on json files shared*
 --------------------------------------------------------
 Hi Sam,
 
